@@ -18,6 +18,7 @@ class BandInput extends Component {
     this.setState({
       bandName: '',
     });
+    event.target.reset()
   }
 
   render() {
